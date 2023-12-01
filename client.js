@@ -5,7 +5,7 @@ const ss = require("socket.io-stream");
 const fs = require("fs");
 
 // connect to server
-let socket = io.connect("http://localhost:5000", {
+let socket = io.connect("http://20.193.139.159:5000", {
   reconnection: true,
   maxHttpBufferSize: 3e9,
 });
