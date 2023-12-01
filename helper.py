@@ -29,8 +29,8 @@ def ReadandProcessData(path):
     class_labels = os.listdir(root_dir)
     images = []
     labels = []
-    target_width = 240
-    target_height = 240
+    target_width = 224
+    target_height = 224
     for label in class_labels:
         class_dir = os.path.join(root_dir, label)
         for file_name in os.listdir(class_dir):
