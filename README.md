@@ -15,7 +15,7 @@ To install other dependencies type
 
 <br/>
 The dataset should be present the following : <br/>
- (i) The main folder is named "train," and it contains subfolders, each corresponding to a specific class label.
+ (i) The main folder is named "data" and it contains subfolders, each corresponding to a specific class label.
 <br/>
  (ii) Each subfolder's name represents a distinct class in the dataset.
 
